@@ -9,7 +9,7 @@
      </o:OfficeDocumentSettings>
     </xml><![endif]-->
     <meta charset="utf-8" />
-    <title>Subscribe to the Staten Island Advance online for updated local news, investigative stories, and special sections not available in print!</title>
+    <title>the Staten Island Advance online is your best place for updated local news, investigative stories, and special sections not available in print!</title>
     <!-- add icon link -->
     <link rel="icon" href="https://media.sailthru.com/composer/images/bazh/b06qxuqh/evw/840/b7i/FAVICON_NY_StatenIsland.png"type="image/x-icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -26,40 +26,19 @@
 
 /* ONLINE SPECIAL SECTION MARKETING TEXT  *
 REPLACE:
+online np url - reader.si.silive.com  
+gif - https://media.sailthru.com/composer/images/bazh/wxt6ga5j/9ec/wyq/n0s/INTRO%20NY%20SIA%20light.gif  
+activate - myaccount.silive.com
 subscribe url.  subscribe.silive.com
 phone #. (718) 816-3900
 
             subscribe.silive.com
             https://subscribe.silive.com
             (718) 816-3900
-            Consider subscribing to the Staten Island Advance online for updated local news,
+            Consider subscribing to the Staten Island Advance online is your best place for updated local news,
             https://media.sailthru.com/composer/images/bazh/wxt6ga5j/9ec/wyq/n0s/INTRO%20NY%20SIA%20light.gif     
 
-			HOW TO: Select the exact text below (below its description and notes), go to the 'Edit' pulldown above and then 'Find in Files' - you will see all instances of that text at right. There should be 20 files highlighted. Now go to 'Edit' and 'Replace in Files'. Paste your new edited content in the field below the text on the right side rail. Click the icon directly to the right of the lower field where you've pasted your new text (it sort of looks like some files with something popping out of the top.) Doing that commits that change across all of the files in this pack of emails.
 
-			PUBLICATION DATE:  Notes: Use &#8203 between your comma and date to keep it from breaking.
-				IpsumLorem&#8203;&nbsp;&#8203;00   
-
-			TITLE OF SPECIAL SECTION:  Notes: Don't put a comma next to it, it will load automatically.
-				SectionTitle00
-			
-			PREHEADER TEXT INTRO:  Notes: The preheader is the short description that shows up in the email preview. Ours will include the date and section title, but that has already been updated above.
-				 
-
-			HEADLINE OF CAMPAIGN:  Notes: Text between the accentSite designators will be highlighted. Use the tag <br> to strategically break text into multiple lines. Place <br> between the words you want to force break.
-				Find:  Call to<br> Action<
-                Replace with your headline: 
-
-			INTRO: Notes: Replace 'Strong intro lines intro intro intro' with the text you are bolding at the beginning of the Intro.
-				<strong>Strong intro lines intro intro intro.</strong> Ur autemos sinvellant, simusan ditaquunt repudit, simolup tatur, coribusae qui demporum qui res alitas sequi blabo. Et harum qui omnihiciae odi volut hicatur epudit, que et ex et fugiae ilis utem re, voluptat ex esciis consequ.
-		
-
-/* ONLINE SPECIAL SECTION MARKETING IMAGE  *
-			HOW TO: Is this a normal tablet cover (the image has been placed in the tablet frame in Photoshop)? or is this an Illustration. An illustration (or non-tablet animation) shouldn't have the drop shadow that works nicely with the tablet style. If it's a normal tablet, start at step 2, If it isn't, start at step 1. 
-
-				STEP 2: Replacing the image with the new campaign image. 
-				Use the instuctions above, to 'Find in Files' and 'Replace in Files'. Use this the line below to 'Find in Files'. Replace it with the url of your new art (that you've loaded into SailThru) by using 'Replace in Files'. (*be sure that your url is correct, leaving off an h at the beginning or an f at the end means it won't load.)
-                    https://placehold.co/800x1000.jpg
 
 /* TEMPLATE LOCALIZATION - ONLY USE THIS TO UPDATE TEMPLATE LOCALIZATIONS - CQ WITH SEAN  *
 
@@ -117,7 +96,10 @@ phone #. (718) 816-3900
 
 
 		/* CLIENT-SPECIFIC STYLES */
-        :hover.bttnSafe {border-radius:25px !important; transition: all 0.2s ease-out;}
+        .subBttn {  transition: all 0.2s ease-in-out; }
+        .subBttn:hover td {background-color: #aaaaac !important; transition: all 0.2s ease-in-out; }
+        .subBttn td:hover {background-color: #1C1E22!important; transition: all 0.2s ease-in-out;}
+        :hover.bttnSafe {transition: all 0.2s ease-out;}
         :hover.bttnSafe a {color: #ffffffff !important; transition: all 0.2s ease-out;}
         .bttnSafe {transition: all 0.2s ease-out;}
         .bttnSafe a {transition: all 0.2s ease-out;}
@@ -275,6 +257,7 @@ phone #. (718) 816-3900
 			.mobileOn { display: block !important; max-height:none !important; }
             .desktopOff { display:contents !important; }
 			/*ALIGNERS*/
+			.center-alignB { text-align: center !important;}
 			.center-align { text-align: center !important; margin: 0 auto !important; padding: 0 !important;}
 			.left-align { text-align: left !important; }
 			.logo { text-align: left !important; padding-left: 10px;}
@@ -327,7 +310,7 @@ phone #. (718) 816-3900
 		max-width:0px;
 		opacity:0;
 		overflow:hidden;">
-        Subscribe to the Staten Island Advance online for updated local news, investigative stories, and special sections not available in print!
+         the Staten Island Advance online is your best place for updated local news, investigative stories, and special sections not available in print!
     </td>
 </tr>
 </table>
@@ -458,7 +441,7 @@ phone #. (718) 816-3900
                                 <!-- SPACER BELOW INTRO --><tr><td height="16" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 <tr>
                                     <td align="left" valign="top">
-								        <p class="intro-text-resize center-align" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 28px; color: #1C1E22; text-wrap: balance;">As a reader-funded newsroom, we rely on subscribers to support and sustain reliable and responsible local journalism. Consider subscribing to the Staten Island Advance online for updated local news, investigative stories, and special sections not available in print.</p>
+								        <p class="intro-text-resize center-align" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 28px; color: #1C1E22; text-wrap: balance;">As a reader-funded newsroom, we rely on subscribers to support and sustain reliable and responsible local journalism. the Staten Island Advance online is your best place for updated local news, investigative stories, and special sections not available in print.</p>
                                     </td>
                                 </tr>
                                 <!-- SPACER BELOW INTRO --><tr><td height="16" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
@@ -485,7 +468,7 @@ phone #. (718) 816-3900
 						<td class="stack imgresize70 spacer" align="center" valign="top">
 						<!-- FILE DIMENSIONS SHOULD BE DOUBLE FOR RETINA DISPLAY
 							width="" attribute must be set -->
-						<a rel="noopener" href="https://subscribe.silive.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/clb/3kb/k9z/INTRO%20MI%20AA%20light.gif" width="200" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" /></a>
+						<a rel="noopener" href="https://reader.si.silive.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/9ec/wyq/n0s/INTRO%20NY%20SIA%20light.gif" width="200" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" /></a>
 						</td>
 					<!-- COLUMN SPACER -->
 						<td class="stack" width="10" align="center" valign="top" style="font-size: 0px; line-height: 0px;">&nbsp;</td>
@@ -495,7 +478,7 @@ phone #. (718) 816-3900
 					<!-- HEADLINE -->
 							<tr>
 								<td class="center-align" align="left" valign="top">
-							<h3 style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"><a rel="noopener" href="https://subscribe.silive.com" target="_blank" style="color: #1C1E22; text-decoration: none; display: inline-block;">Subscribe now!</a></h3>
+							<h3 style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"><a rel="noopener" href="https://reader.si.silive.com" target="_blank" style="color: #1C1E22; text-decoration: none; display: inline-block;">Get online!</a></h3>
 								</td>
 							</tr>
 						<!-- ROW SPACER -->
@@ -505,12 +488,7 @@ phone #. (718) 816-3900
 					<!-- BODY TEXT -->
 							<tr>
 								<td class="center-align" align="left" valign="top">
-									<p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #1C1E22; text-wrap: balance;">Call (718) 816-3900 or</p>
-								</td>
-							</tr>
-							<tr>
-								<td class="center-align" align="left" valign="top">
-									<p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #1C1E22; text-wrap: balance;">Visit subscribe.silive.com.</p>
+									<p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #1C1E22; text-wrap: balance;">Visit reader.si.silive.com.</p>
 								</td>
 							</tr>
 						<!-- ROW SPACER -->
@@ -523,16 +501,26 @@ phone #. (718) 816-3900
 								<td align="left" valign="top">
 								<!-- WIDTH ADJUSTMENT TABLE
 								ADD width="" TO SET A FIXED BUTTON WIDTH, USE 100% FOR FULL WIDTH BUTTON -->
-								<table class="center-align" role="presentation" border="0" cellspacing="0" cellpadding="0">
+								<table class="subBttn center-align" width="210" role="presentation" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<!-- PADDING ON THIS <td> MAKES WIDTH RESPONSIVE TO LENGTH OF BUTTON TEXT -->
-										<td class="bttnSafe" style="padding: 15px 25px; border-radius:5px; background-color: #1C1E22;" align="center">
-											<a rel="noopener" href="https://subscribe.silive.com" target="_blank" style="font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; color: #e7e7e7; text-decoration: none; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">Click to Subscribe</a>
+										<td class="bttnSafe center-alignB" style="padding: 15px 25px; border-radius:5px; background-color: #1C1E22;" align="left">
+											<a rel="noopener" href="https://reader.si.silive.com" target="_blank" style="font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; color: #e7e7e7; text-decoration: none; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">Explore</a>
+										</td>
+									</tr>
+							        <tr>
+								        <th height="10" style="font-size:10px; line-height:1;">&nbsp;</th>
+							        </tr>
+									<tr>
+										<!-- PADDING ON THIS <td> MAKES WIDTH RESPONSIVE TO LENGTH OF BUTTON TEXT -->
+										<td class="bttnSafe center-alignB" style="padding: 15px 25px; border-radius:5px; background-color: #96969aff;" align="left">
+											<a rel="noopener" href="https://myaccount.silive.com" target="_blank" style="font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; color: #e7e7e7; text-decoration: none; display: inline-block; text-transform: uppercase">Activate your account</a>
 										</td>
 									</tr>
 								</table>
 								</td>
 							</tr>
+
 						</table>
 
 						</td>
@@ -565,7 +553,7 @@ phone #. (718) 816-3900
 						<td class="stack imgresize70 spacer" align="center" valign="top">
 						<!-- FILE DIMENSIONS SHOULD BE DOUBLE FOR RETINA DISPLAY
 							width="" attribute must be set -->
-						<a rel="noopener" href="https://subscribe.silive.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/222/itz/gon/MOBILEonlyLIGHT.gif" width="200" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" /></a>
+						<a rel="noopener" href="https://reader.si.silive.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/222/itz/gon/MOBILEonlyLIGHT.gif" width="200" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" /></a>
 						</td>
 
 					<!-- COLUMN SPACER -->
@@ -576,7 +564,7 @@ phone #. (718) 816-3900
 					<!-- HEADLINE -->
 							<tr>
 								<td class="center-align" align="left" valign="top">
-							<h3 style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"><a rel="noopener" href="https://subscribe.silive.com" target="_blank" style="color: #1C1E22; text-decoration: none; display: inline-block;">What's included</a></h3>
+							<h3 style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"><a rel="noopener" href="https://reader.si.silive.com" target="_blank" style="color: #1C1E22; text-decoration: none; display: inline-block;">What's included</a></h3>
 								</td>
 							</tr>
 						<!-- ROW SPACER -->
@@ -624,7 +612,7 @@ phone #. (718) 816-3900
 						<td class="stack imgresize70 spacer" align="center" valign="top">
 						<!-- FILE DIMENSIONS SHOULD BE DOUBLE FOR RETINA DISPLAY
 							width="" attribute must be set -->
-						<a rel="noopener" href="https://subscribe.silive.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/sxw/0yz/riz/MOBILEfeaturesLIGHT2.gif" width="200" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" /></a>
+						<a rel="noopener" href="https://reader.si.silive.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/sxw/0yz/riz/MOBILEfeaturesLIGHT2.gif" width="200" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" /></a>
 						</td>
 					<!-- COLUMN SPACER -->
 						<td class="stack" width="10" align="center" valign="top" style="font-size: 0px; line-height: 0px;">&nbsp;</td>
@@ -634,7 +622,7 @@ phone #. (718) 816-3900
 					<!-- HEADLINE -->
 							<tr>
 								<td class="center-align" align="left" valign="top">
-							<h3 style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"><a rel="noopener" href="https://subscribe.silive.com" target="_blank" style="color: #1C1E22; text-decoration: none; display: inline-block;">Made for you</a></h3>
+							<h3 style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"><a rel="noopener" href="https://reader.si.silive.com" target="_blank" style="color: #1C1E22; text-decoration: none; display: inline-block;">Made for you</a></h3>
 								</td>
 							</tr>
 						<!-- ROW SPACER -->
@@ -701,7 +689,7 @@ phone #. (718) 816-3900
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#e7e7e7;" bgcolor="#e7e7e7">
                                 <tr>
                                 <td align="center" valign="top">
-                                    <table class="mobile-240" role="presentation" width="330" cellpadding="0" cellspacing="0" border="0">
+                                    <table class="mobile-240" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                         <tr>
                                         <td align="center" valign="top">
                                             <!--SPACER--><tr><td height="35" class="" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
@@ -738,7 +726,7 @@ phone #. (718) 816-3900
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#e7e7e7;" bgcolor="#e7e7e7">
                                 <tr>
                                 <td align="center" valign="top">
-                                    <table class="mobile-240" role="presentation" width="330" cellpadding="0" cellspacing="0" border="0">
+                                    <table class="mobile-240" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                         <tr>
                                         <td align="center" valign="top">
                                             <tr><td width="100%" align="center"style="padding: 0px; border-top: 1px solid #1C1E22;"></td></tr>
